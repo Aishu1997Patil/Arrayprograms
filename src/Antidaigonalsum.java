@@ -1,4 +1,4 @@
-public class Addingdiagonalvalue {
+public class Antidaigonalsum {
     public static void main(String[] args) {
         int[][] a = {
                 {1, 2, 3},
@@ -7,8 +7,8 @@ public class Addingdiagonalvalue {
         };
         int sum = 0;
         for (int i = 0; i < a.length; i++) {
-            sum=sum+a[i][i];
+            sum=sum+a[i][a.length - 1 - i];
         }
-        System.out.println("Sum of the diagonal values is: " + sum);
+        System.out.println("Sum of the anti-diagonal is: " + sum);
     }
 }
