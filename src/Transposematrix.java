@@ -12,7 +12,6 @@ public class Transposematrix {
                 System.out.print(b[i][j] + " ");
             }
             System.out.println();
-
         }
     }
 }
